@@ -9,9 +9,9 @@ module.exports = function (app) {
         result.sendFile(path.join(__dirname, '../public/survey.html'));
     });
     // Catch all route to default to home
-    app.get('*', function (request, result) {
-        result.sendFile(path.join(__dirname, '../public/home.html'));
-    });
+    // app.get('*', function (request, result) {
+    //     result.sendFile(path.join(__dirname, '../public/home.html'));
+    // });
 };
 
 
